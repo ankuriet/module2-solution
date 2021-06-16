@@ -1,0 +1,156 @@
+h1{
+font-size:175%;
+}
+@media (max-width: 767px){
+.box{
+border: 1px solid black;
+margin-bottom: 18px;
+background-color: grey;
+border-radius: 1px;
+width:94%;
+margin-left: 3%;
+margin-right: 3%;
+}
+.first{
+position:relative;
+border:1px solid black;
+width:25%;
+float:right;
+text-align:center;
+border-radius:1px;
+margin-top:-1px;
+margin-right:-1px;
+box-sizing: border-box;
+font-size: 125%;
+}
+.matter{
+clear:both;
+margin-left:3px;
+margin-right:3px;
+}
+#a{
+background-color:orange;
+}
+#b{
+background-color:blue;
+}
+#c{
+background-color:red;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+#a{
+background-color:orange;
+}
+#b{
+background-color:blue;
+}
+#c{
+background-color:red;
+}
+.matter{
+clear:both;
+margin-left:2px;
+margin-right:2px;
+}
+.first{
+position:relative;
+border:1px solid black;
+width:25%;
+float:right;
+text-align:center;
+border-radius:1px;
+margin-top:-1px;
+margin-right:-1px;
+box-sizing: border-box;
+font-size: 125%;
+}
+.box{
+border: 1px solid black;
+background-color:grey;
+border-radius:1px;
+}
+#box1{
+position:relative;
+width:46%;
+float:left;
+margin-left:3%;
+margin-right:1%;
+margin-bottom: 15px;
+box-sizing: border-box;
+}
+#box2{
+position:relative;
+width:46%;
+margin-left:1%;
+margin-right:3%;
+margin-bottom: 15px;
+box-sizing: border-box;
+float: left;
+}
+#box3{
+position:relative;
+width:94%;
+float:left;
+margin-left:3%;
+box-sizing: border-box; 
+}
+}
+
+@media (min-width: 992px){
+#a{
+background-color:orange;
+}
+#b{
+background-color:blue;
+}
+#c{
+background-color:red;
+}
+.matter{
+clear:both;
+margin-left:2px;
+margin-right:2px;
+}
+#box1{
+position:relative;
+width:30%;
+float:left;
+margin-left:3%;
+margin-right:1%;
+box-sizing: border-box;
+}
+#box2{
+position:relative;
+width:30%;
+margin-left:1%;
+margin-right:2%;
+box-sizing: border-box;
+float: left;
+}
+#box3{
+position:relative;
+width:30%;
+float:left ;
+margin-left:1%
+margin-right:3%;
+box-sizing: border-box; 
+}
+.first{
+position:relative;
+border:1px solid black;
+width:25%;
+float:right;
+text-align:center;
+border-radius:1px;
+margin-top:-1px;
+margin-right:-1px;
+box-sizing: border-box;
+font-size: 125%;
+}
+.box{
+border: 1px solid black;
+background-color:grey;
+border-radius:1px;
+}
+}
